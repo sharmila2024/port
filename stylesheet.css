@@ -73,13 +73,10 @@ animation-delay: calc(.2s * var(--i));
 .home-content h3:nth-last-of-type(2){
     margin-bottom: 30px;
     animation: sideTop 1s ease forwards;
-    animation-delay: .7s;
-    
+    animation-delay: .7s;    
 }
 .home-content h3 span{
     color: #0ef;
-
-
 }
 .home-content h1 {
     font-size: 56px;
@@ -94,7 +91,6 @@ animation-delay: calc(.2s * var(--i));
     opacity: 0;
     animation: slideLeft 1s ease forwards;
     animation-delay: 1s;
-
 }
 .home-sci a {
     display: inline-flex;
@@ -113,7 +109,6 @@ animation-delay: calc(.2s * var(--i));
     animation: slideLeft 1s ease forwards;
     animation-delay: calc(.2s * var(--i));
     margin: 30px 15px 30px 0;
-
 }
 .home-sci a:hover {
     background: #0ef;
@@ -141,20 +136,11 @@ animation-delay: calc(.2s * var(--i));
     0 0 25px cyan, 0 0 50px cyan,
     0 0 100px cyan, 0 0 200px cyan;
 }
-
 .about{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
     gap: 1.5rem;
-}
-.about-img{
-    padding-bottom: 20%;
-    max-width: 630px;
-    height: auto;
-    width: 100%;
-    right: -100%;
-    border-radius: 50px;
 }
 .about-text h2 {
     font-size: 60px
@@ -168,7 +154,6 @@ font-weight: 600;
 color: #fff;
 line-height: 1.7;
 margin: 15px 0 30px;
-
 }
 .about-text p {
     columns: aliceblue;
@@ -176,14 +161,12 @@ margin: 15px 0 30px;
     line-height: 1.4;
     margin-bottom: 4rem;
 }
-
 .sub-title{
     text-align: center;
     font-size: 60px;
     padding-bottom: 70px;
 }
 .sub-title span{
-
     color: #0ef;
 }
 section{
@@ -207,8 +190,7 @@ section{
     font-size: 23px;
 }
 .Technical-bars .bar{
-    margin-top: 40px 0;
-    
+    margin-top: 40px 0;  
 }
 .Technical-bars .bar:first-child{
     margin-top: 0;
@@ -219,9 +201,6 @@ section{
 .Technical-bars .bar .info{
     margin-bottom: 5px;
 }
-
-
-
 @keyframes slideRight {
     0%{
         transform: translateX(-100px);
@@ -232,7 +211,6 @@ section{
         opacity: 1;
     }
 }
-
 @keyframes slideTop {
     0%{
         transform: translatey(-100px);
